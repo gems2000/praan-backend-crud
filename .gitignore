@@ -348,3 +348,18 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+#Ignore vscode config and other node.js garbage collection
+node_modules/**/*
+build/**/*
+certs/**/*
+build/**/*
+
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+package-lock.json
